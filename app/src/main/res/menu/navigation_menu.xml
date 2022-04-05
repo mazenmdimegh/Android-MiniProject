@@ -6,6 +6,10 @@
         android:icon="@drawable/profile"
         android:title="@string/profile" />
     <item
+        android:id="@+id/menuStage"
+        android:icon="@drawable/notifications"
+        android:title="@string/stage" />
+    <item
         android:id="@+id/menuNotifications"
         android:icon="@drawable/notifications"
         android:title="@string/notifications" />

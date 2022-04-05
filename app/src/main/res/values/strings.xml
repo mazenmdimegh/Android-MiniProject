@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MiniProjet</string>
     <string name="profile">Profile</string>
+    <string name="stage">Stage</string>
     <string name="notifications">Notifications</string>
     <string name="collection">Collection</string>
     <string name="inbox">Inbox</string>
@@ -11,6 +12,19 @@
     <string name="settings">Settings</string>
     <string name="mazen">Mazen Mdimegh</string>
     <string name="verified">Verified</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="titres">
+        <item>Stage Operations Manager / Guest  Hotel Quality Manager</item>
+        <item>Alternance Recherche Développeur Full-Stack H/F - Lyon</item>
+        <item>Stage/Apprentissage Paralegal</item>
+        <item>Chargé(e) de marketing B2B (H/F) (stage)</item>
+        <item>Stage Business Developer / Sales</item>
+    </string-array>
+    <string-array name="description">
+        <item>this is a random description</item>
+        <item>this is a random description</item>
+        <item>this is a random description</item>
+        <item>this is a random description</item>
+        <item>this is a random description</item>
+    </string-array>
 </resources>
