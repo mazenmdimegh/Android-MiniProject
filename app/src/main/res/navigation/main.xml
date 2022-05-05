@@ -25,4 +25,9 @@
         android:name="com.demo.miniprojet.StageFragment"
         android:label="stage"
         tools:layout="@layout/fragment_stage" />
+    <fragment
+        android:id="@+id/menuEnterprise"
+        android:name="com.demo.miniprojet.EntrepriseFragment"
+        android:label="@string/entreprise"
+        tools:layout="@layout/fragment_entreprise" />
 </navigation>

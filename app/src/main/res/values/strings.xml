@@ -10,6 +10,7 @@
     <string name="support">Support</string>
     <string name="about_us">About_us</string>
     <string name="settings">Settings</string>
+    <string name="entreprise">Entreprise</string>
     <string name="mazen">Mazen Mdimegh</string>
     <string name="verified">Verified</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -26,5 +27,12 @@
         <item>this is a random description</item>
         <item>this is a random description</item>
         <item>this is a random description</item>
+    </string-array>
+    <string-array name="Entreprises">
+        <item>Flateo</item>
+        <item>Germitec</item>
+        <item>Medinbio</item>
+        <item>Dipole</item>
+        <item>Iwase Cosfa</item>
     </string-array>
 </resources>
