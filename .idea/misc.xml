@@ -4,9 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/drawable-v24/gradientbackground.xml" value="0.1" />
+        <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.196" />
+        <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/drawable/ic_launcher_background.xml" value="0.196" />
         <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/drawable/ic_menu.xml" value="0.1985" />
+        <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/drawable/layout_bg.xml" value="0.196" />
+        <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/layout/activity_entreprise_details.xml" value="0.39444444444444443" />
         <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/layout/fragment_entreprise.xml" value="0.1" />
+        <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/layout/fragment_entreprise.xml" value="0.33" />
         <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/layout/fragment_notifications.xml" value="0.29322916666666665" />
         <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/layout/fragment_profile.xml" value="0.29322916666666665" />
         <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/layout/fragment_settings.xml" value="0.29322916666666665" />
@@ -14,7 +18,7 @@
         <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/layout/layout_navigation_header.xml" value="0.25" />
         <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/layout/my_row.xml" value="0.2970873786407767" />
         <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/layout/my_rowEntreprise.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/layout/my_rowentreprise.xml" value="0.28541666666666665" />
+        <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/layout/my_rowentreprise.xml" value="0.2843866171003718" />
         <entry key="..\:/Users/Mazen/AndroidStudioProjects/MiniProjet/app/src/main/res/menu/navigation_menu.xml" value="0.33" />
       </map>
     </option>
