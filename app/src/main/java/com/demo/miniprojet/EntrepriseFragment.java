@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -57,10 +58,11 @@ public class EntrepriseFragment extends Fragment implements MyAdapter2.OnNoteLis
 //        Dynamic List will be commented after test
 //        s1 = getResources ().getStringArray(R.array.Entreprises);
 
-        //Creating Instance of my costomized Array adapter
+        //Creating Instance of my costomized  adapter
 
         MyAdapter2 myAdapter = new MyAdapter2( view.getContext(), Companies, images,this);
         recyclerView.setAdapter (myAdapter);
+        // Selecting the Table named "Entreprises"
 
         dataBase = FirebaseDatabase.getInstance().getReference("Entreprises");
 //        recyclerView.setHasFixedSize(true);
@@ -83,24 +85,16 @@ public class EntrepriseFragment extends Fragment implements MyAdapter2.OnNoteLis
 
             }
         });
-
-        //MyAdapter myAdapter = new MyAdapter(  this, s1, s2, images);
-        //recyclerView.setLayoutManager(new LinearLayoutManager());
-        // recyclerView.setAdapter(new RandomNumListAdapter(1234));
-
-
+        //display 2 elements by line
         recyclerView.setLayoutManager(new GridLayoutManager( view.getContext(),2));
         return view;
     }
 
     @Override
     public void onNoteClick(int position) {
+
         Entreprise compan = Companies.get(position);
-//        Intent intent =new Intent(getActivity(),EntrepriseDetails.class);
-//       startActivity(intent);
-
-        Log.d("aaaaaaaaa","clickeeed"+position);
-
+        //dynamic display of data from DataBase
         dialogBuilder =new AlertDialog.Builder(getActivity());
          View contactPopupView=getLayoutInflater().inflate(R.layout.activity_entreprise_details,  null);
         TextView textView = (TextView)contactPopupView.findViewById(R.id.Titre);
@@ -113,6 +107,8 @@ public class EntrepriseFragment extends Fragment implements MyAdapter2.OnNoteLis
         textView3.setText(compan.getSecteur());
         TextView textView4 = (TextView)contactPopupView.findViewById(R.id.taille);
         textView4.setText(compan.getTaille());
+        ImageView imageView = (ImageView)contactPopupView.findViewById(R.id.myImageView);
+        imageView.setImageResource(images[position]);
         dialogBuilder.setView(contactPopupView);
 //        dialogBuilder.
         dialog=dialogBuilder.create();
